@@ -1,0 +1,71 @@
+.search-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 54px;
+  width: 280px;
+  border: 1px solid rgb(250, 249, 247);
+  border-radius: 5px;
+  background-color: rgb(250, 249, 247);
+  opacity: 0.7;
+}
+.input-search{
+  border: 1px solid rgb(250, 249, 247); 
+  border-radius: 3px;
+  height: 26px;
+  width: 150px;
+ 
+}
+.search-button{
+  width: 80px;
+  height: 30px;
+  position: relative;
+    background-color: rgba(8, 8, 8, 0.836);
+   outline: none;
+    border-radius: 5px;
+  color: #FFFFFF;
+   text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+   
+}
+.search-button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+.search-button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.img-microphone{
+  
+  cursor: pointer;
+}
+.img-microphone:hover{
+  filter:invert(35%);
+}
+
+.blink {
+ cursor: pointer;
+  -webkit-animation: blink 1s linear infinite;
+  animation: blink 1s linear infinite;
+}
+@-webkit-keyframes blink {
+  100% { color: rgba(34, 34, 34, 0); }
+}
+@keyframes blink {
+  100% { color: rgba(34, 34, 34, 0); }
+}

@@ -1,0 +1,6 @@
+.info-block{
+  margin-left: 20px;
+}
+@media screen and (max-width: 500px){
+  .info-block{margin: 0 auto;}
+}

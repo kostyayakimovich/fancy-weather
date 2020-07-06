@@ -1,0 +1,26 @@
+.language-box{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgb(250, 249, 247);
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 80px;
+  background-color: rgb(250, 249, 247);
+  opacity: 0.7;
+}
+.en, .ru, .be{
+ cursor:pointer;
+}
+.active-lang{
+  cursor: pointer;
+  color:rgb(143, 14, 20);
+}
+.en:hover{
+  color: rgb(184, 184, 235);
+}
+.ru:hover{
+  color: rgb(113, 84, 219);
+}
+.be:hover{
+  color: rgb(78, 214, 123);
+}

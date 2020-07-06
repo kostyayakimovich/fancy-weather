@@ -1,0 +1,24 @@
+.temp-measure-box{
+  display: flex;
+  justify-content: space-around;
+  width: 50px;
+  margin-left: 10px;
+  border: 1px solid rgb(250, 249, 247);
+  border-radius: 5px;
+  background-color: rgb(250, 249, 247);
+  opacity: 0.7;
+}
+.fahrenheit, .celsius{
+  cursor: pointer;
+}
+.active-temp{
+  cursor: pointer;
+  color:rgb(143, 14, 20);
+}
+
+.fahrenheit:hover{
+  color:rgb(184, 184, 235) ;
+}
+.celsius:hover{
+  color:rgb(184, 184, 235) ;
+}

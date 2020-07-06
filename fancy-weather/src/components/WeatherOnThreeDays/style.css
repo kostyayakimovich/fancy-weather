@@ -1,0 +1,29 @@
+.weather-on-three-days{
+  background-color: rgb(250, 249, 247);
+  opacity: 0.7;
+  border-radius: 5px;
+  height: 80px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.day{  
+  text-align: center;
+  color: rgb(72, 136, 88);
+  text-transform: uppercase;
+}
+.day-info{
+  display: flex;
+  align-items: center;
+ 
+}
+.temp-day{
+  color: rgb(72, 136, 88);
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+.icon-day{
+  width: 50px;
+  height: 50px;
+}
